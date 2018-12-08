@@ -1,0 +1,31 @@
+header {
+    background: #0E1112;
+}
+
+.container {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.title {
+    width: 15%;
+    justify-content: space-around;
+}
+
+.nav-links {
+    width: 70vw;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.current {
+    border-bottom: 2px solid #CCAC55;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #CCAC55;
+}
