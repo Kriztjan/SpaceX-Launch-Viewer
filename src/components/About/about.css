@@ -1,0 +1,47 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.about-sub-1 {
+    border: 1px solid #666666;
+    border-radius: 16px;
+    height: 40vh;
+    width: 60vw;
+    margin-left: 20%;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-sub-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #22272b;
+    border-radius: 16px;
+    text-align: center;
+    height: 40vh;
+    width: 60vw;
+    overflow: scroll;
+}
+
+.about-sub-2 a {
+    color: #AA914B;
+    text-decoration: none;
+}
+
+.about-sub-2-disclaimer {
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}

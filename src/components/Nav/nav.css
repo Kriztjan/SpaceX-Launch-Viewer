@@ -25,7 +25,12 @@ header {
     border-bottom: 2px solid #CCAC55;
 }
 
-li:hover {
+.nav-links li:hover {
     cursor: pointer;
     border-bottom: 2px solid #CCAC55;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
 }

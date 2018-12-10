@@ -1,0 +1,198 @@
+.booking-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* .b-sub-1 {
+    border: 1px solid #666666;
+    border-radius: 16px;
+    background: #22272b;
+    height: 60vh;
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+.b-sub-1 {
+    background: #22272b;
+    border: 1px solid #666666;
+    border-radius: 16px;
+    /* height: 50vh; */
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.b-sub-2 {
+    /* height: 60vh; */
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .b-sub-2 select {
+    width: 8vw;
+    height: 4vh;
+    margin: 0;
+} */
+
+.b-sub-2 label {
+    margin-bottom: 1%;
+}
+
+.b-sub-2 input {
+    height: 2vh;
+    border-radius: 5px;
+    color: white;
+    background: #2b3035;
+    border: 1px solid #706f6f;
+    margin-bottom: 4%;
+}
+
+.b-sub-2 input[type=submit] {
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+    background: #2b3035;
+    border: 1px solid #706f6f;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 10vw;
+}
+
+.b-sub-2 input[type=submit]:hover {
+    cursor: pointer;
+    background: #424a52;
+}
+
+.b-sub-2 select {
+    height: 3vh;
+    border-radius: 5px;
+    color: white;
+    background: #2b3035;
+    border: 1px solid #706f6f;
+    margin-bottom: 4%;
+}
+
+.b-sub-2 textarea {
+    background: #2b3035;
+    border: 1px solid #706f6f;
+    border-radius: 5px;
+    color: white;
+    resize: vertical;
+    margin-bottom: 4%;
+    height: 15vh;
+}
+
+.b-sub-3 {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+
+.b-sub-4 {
+    width: 40vw;
+    /* height: 60vh; */
+    border: 1px solid #706f6f;
+    border-radius: 16px;
+    background: #2b3035;
+    margin-top: 2%;
+
+    overflow: scroll;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 1px solid green; */
+}
+
+.b-sub-5 {
+    border: 1px solid #706f6f;
+    border-radius: 5px;
+    background: #2b3035;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 30vw;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    line-height: 2;
+    padding: 2%;
+}
+
+.b-sub-5 span {
+    font-weight: bold;
+}
+
+.b-sub-6 {
+    width: 25vw;
+    border: 1px solid #807e7e;
+    background: #32373b;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.b-sub-7 {
+    margin-top: 4%;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.b-sub-7 button {
+    border-radius: 5px;
+    color: white;
+    background: #32373b;
+    border: 1px solid #807e7e;
+    width: 8vw;
+    height: 4vh;
+}
+
+.b-sub-7 button:hover {
+    cursor: pointer;
+    background: #43494e;
+}
+
+.b-sub-8 {
+    width: 21vw;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+}
+
+.b-sub-8 input[type=submit], button {
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+    background: #2b3035;
+    border: 1px solid #706f6f;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 10vw;
+}
+
+.b-sub-8 input[type=submit]:hover {
+    cursor: pointer;
+    background: #424a52;
+}
+
+.b-sub-8 button:hover {
+    cursor: pointer;
+    background: #424a52;
+}

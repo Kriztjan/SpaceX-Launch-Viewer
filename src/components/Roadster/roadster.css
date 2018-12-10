@@ -1,0 +1,64 @@
+.roadster-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.rc-sub-1 {
+    border: 1px solid #666666;
+    border-radius: 16px;
+    height: 80vh;
+    width: 60vw;
+    margin-left: 20%;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rc-sub-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: #22272b;
+    border-radius: 16px;
+    /* text-align: center; */
+    height: 80vh;
+    width: 60vw;
+}
+
+.rc-sub-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 60vw;
+}
+
+.rc-sub-info span {
+    font-weight: bold;
+}
+
+.rc-sub-details {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    border: 1px solid #666666;
+    border-radius: 16px;
+    background: #272c30;
+    width: 40vw;
+    height: 30vh;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
